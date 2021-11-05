@@ -3,7 +3,6 @@
 include 'koneksi.php';
 
 $id = $_POST['id'];
-// $connect -> query ("DELETE FROM tbl_mahasiswa WHERE id = ".$id);
 
 
 $sql = "DELETE FROM tbl_mahasiswa WHERE id = $id";

@@ -10,8 +10,6 @@ $alamat = $_POST['alamat'];
 $hp = $_POST['hp'];
 
 
-// $connect->query("UPDATE  tbl_mahasiswa SET nama ='".$nama."', nim ='".$nim."', jurusan = '".$jurusan."', alamat = '".$alamat."', hp = '".nohp."' WHERE id = ". $id);
-
 $sql = "UPDATE tbl_mahasiswa SET nama = '$nama', nim = '$nim', jurusan = '$jurusan', alamat = '$alamat', hp = '$hp' WHERE id = $id ";
 
 $isSuccess = $connect->query($sql);
