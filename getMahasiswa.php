@@ -1,14 +1,6 @@
 <?php
 
 include 'koneksi.php';
-// $hasil = $connect-> query("select * from tbl_mahasiswa");
-
-// $result = array();
-// while ($dapatData = $hasil -> fetch_assoc()){
-//     $result[] = $dapatData;
-// }
-// echo json_encode($result);
-
 
 $sql = "SELECT * FROM tbl_mahasiswa";
 $result = $connect->query($sql);
